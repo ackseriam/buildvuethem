@@ -1,0 +1,13 @@
+<!--https://shopify.dev/api/liquid/tags/theme-tags#render documentacion del render::
+
+El render : Muestra un fragmento de la carpeta de fragmentos de un tema. -->
+{% paginate collection.products by 5 %}
+<div class="container">
+   <div class="collection">
+       <h1 class="collection-title">{{ collection.title }} Themeee</h1>
+       <div class="collection-list">
+           {% render 'product-card'  for collection.products as product %} 
+       </div>
+   </div>    
+</div>
+  {% endpaginate %}

@@ -1,0 +1,28 @@
+<!-- Para saber mas de secciones https://shopify.dev/themes/architecture/sections-->
+ <!-- El name determina el título de la sección  -->
+  <!-- los inputs de los settings: https://shopify.dev/themes/architecture/settings/input-settings#image_picker -->
+   <!-- https://shopify.dev/themes/architecture/sections/section-schema#presets-->
+<div class="hero-image section">
+    <img src="{{ section.settings.image | img_url: 'master' }}">
+</div>
+
+{% schema %}
+{
+    "name": "Hero Image",
+    "settings": [
+        {
+         
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+              
+        }
+    ],   
+    "presets": [
+     {
+       "name": "Hero image",
+        "category": "Image"
+     }
+   ]
+}
+{% endschema %}
