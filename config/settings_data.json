@@ -1,1 +1,19 @@
-{"current":{"sections":{"16363349190d7c5e74":{"type":"hero","settings":{"image":"shopify:\/\/shop_images\/Elegance_and_innovation.png"}}},"content_for_index":["16363349190d7c5e74"]},"presets":{"Default":{}}}
+{
+  "current": {
+    "sections": {
+      "16363349190d7c5e74": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Elegance_and_innovation.png"
+        }
+      }
+    },
+    "content_for_index": [
+      "16363349190d7c5e74"
+    ]
+  },
+  "presets": {
+    "Default": {
+    }
+  }
+}
